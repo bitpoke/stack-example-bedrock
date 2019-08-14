@@ -40,7 +40,11 @@
     "roots/wordpress": "5.2.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "presslabs/stack-mu-plugin": "^0.1.0"
+    "presslabs/stack-mu-plugin": "^0.1.0",
+    "wpackagist-plugin/server-ip-memory-usage": "^2.1",
+    "wpackagist-plugin/debug-bar": "^1.0",
+    "wpackagist-plugin/debug-bar-console": "^0.3.0",
+    "rarst/laps": "^3.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
