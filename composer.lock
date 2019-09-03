@@ -176,16 +176,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "0f75e20e7392e863f5550ed2c2d3d50af21710fb"
+                "reference": "2ee962e5df3e9427fda859f1b0515d6d62c4afa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/0f75e20e7392e863f5550ed2c2d3d50af21710fb",
-                "reference": "0f75e20e7392e863f5550ed2c2d3d50af21710fb",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/2ee962e5df3e9427fda859f1b0515d6d62c4afa5",
+                "reference": "2ee962e5df3e9427fda859f1b0515d6d62c4afa5",
                 "shasum": ""
             },
             "require": {
@@ -223,20 +223,20 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2019-04-16T18:48:28+00:00"
+            "time": "2019-07-22T21:01:31+00:00"
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "c7b8890cdab3761e341ecf8f5d7c141aa616978f"
+                "reference": "1e5dceb51497baa295933588abaa93fa1e6f5e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/c7b8890cdab3761e341ecf8f5d7c141aa616978f",
-                "reference": "c7b8890cdab3761e341ecf8f5d7c141aa616978f",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/1e5dceb51497baa295933588abaa93fa1e6f5e04",
+                "reference": "1e5dceb51497baa295933588abaa93fa1e6f5e04",
                 "shasum": ""
             },
             "require": {
@@ -284,7 +284,7 @@
                 "Apache-2.0"
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
-            "time": "2019-08-07T20:57:43+00:00"
+            "time": "2019-08-21T17:32:44+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -835,20 +835,21 @@
         },
         {
             "name": "presslabs/stack-mu-plugin",
-            "version": "v0.1.2",
+            "version": "v0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/presslabs/stack-mu-plugin.git",
-                "reference": "7259285b5797c11958f8bca78322fe900ef85809"
+                "reference": "f21cf040b5d1b8cba43561ad86cd93c6c070513f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/7259285b5797c11958f8bca78322fe900ef85809",
-                "reference": "7259285b5797c11958f8bca78322fe900ef85809",
+                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/f21cf040b5d1b8cba43561ad86cd93c6c070513f",
+                "reference": "f21cf040b5d1b8cba43561ad86cd93c6c070513f",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
+                "google/auth": "^1.5.2",
                 "google/cloud-storage": "^1.14",
                 "oscarotero/env": "^1.2.0",
                 "vlucas/phpdotenv": "^3.4.0"
@@ -897,7 +898,7 @@
                 }
             ],
             "description": "WordPress must-use plugin for Stack",
-            "time": "2019-08-13T22:22:24+00:00"
+            "time": "2019-09-03T12:27:27+00:00"
         },
         {
             "name": "psr/cache",
@@ -1491,16 +1492,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v1.1.5",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d"
+                "reference": "ea7263d6b6d5f798b56a45a5b8d686725f2719a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
-                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/ea7263d6b6d5f798b56a45a5b8d686725f2719a3",
+                "reference": "ea7263d6b6d5f798b56a45a5b8d686725f2719a3",
                 "shasum": ""
             },
             "require": {
@@ -1545,20 +1546,20 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-06-13T11:15:36+00:00"
+            "time": "2019-08-20T14:44:19+00:00"
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v4.3.3",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "6b100e9309e8979cf1978ac1778eb155c1f7d93b"
+                "reference": "1e4ff456bd625be5032fac9be4294e60442e9b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/6b100e9309e8979cf1978ac1778eb155c1f7d93b",
-                "reference": "6b100e9309e8979cf1978ac1778eb155c1f7d93b",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/1e4ff456bd625be5032fac9be4294e60442e9b71",
+                "reference": "1e4ff456bd625be5032fac9be4294e60442e9b71",
                 "shasum": ""
             },
             "require": {
@@ -1595,20 +1596,20 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-27T08:16:38+00:00"
+            "time": "2019-08-07T11:52:19+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "5084b23845c24dbff8ac6c204290c341e4776c92"
+                "reference": "95cb0fa6c025f7f0db7fc60f81e9fb231eb2d222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/5084b23845c24dbff8ac6c204290c341e4776c92",
-                "reference": "5084b23845c24dbff8ac6c204290c341e4776c92",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/95cb0fa6c025f7f0db7fc60f81e9fb231eb2d222",
+                "reference": "95cb0fa6c025f7f0db7fc60f81e9fb231eb2d222",
                 "shasum": ""
             },
             "require": {
@@ -1622,7 +1623,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4-dev"
+                    "dev-master": "3.5-dev"
                 }
             },
             "autoload": {
@@ -1636,9 +1637,14 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "homepage": "https://gjcampbell.co.uk/"
+                },
+                {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "https://vancelucas.com/"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -1647,7 +1653,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-06-15T22:40:20+00:00"
+            "time": "2019-08-27T17:00:38+00:00"
         },
         {
             "name": "wpackagist-plugin/debug-bar",
