@@ -44,6 +44,8 @@
     "wpackagist-plugin/server-ip-memory-usage": "^2.1",
     "wpackagist-plugin/debug-bar": "^1.0",
     "wpackagist-plugin/debug-bar-console": "^0.3.0",
+    "wpackagist-plugin/debug-bar-console": "^0.3.0",
+    "wpackagist-plugin/wp-test-email": "^1.1",
     "rarst/laps": "^3.3"
   },
   "require-dev": {
