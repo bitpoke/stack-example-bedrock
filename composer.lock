@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e66d7a86686a9978751416d80a4c0fb1",
+    "content-hash": "be5c5181d3afdac7fa1feea68250f84c",
     "packages": [
         {
             "name": "composer/installers",
@@ -835,16 +835,16 @@
         },
         {
             "name": "presslabs/stack-mu-plugin",
-            "version": "v0.1.4",
+            "version": "v0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/presslabs/stack-mu-plugin.git",
-                "reference": "f21cf040b5d1b8cba43561ad86cd93c6c070513f"
+                "reference": "b28790c75e6f507c037f8c3a6c5e14b573a34470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/f21cf040b5d1b8cba43561ad86cd93c6c070513f",
-                "reference": "f21cf040b5d1b8cba43561ad86cd93c6c070513f",
+                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/b28790c75e6f507c037f8c3a6c5e14b573a34470",
+                "reference": "b28790c75e6f507c037f8c3a6c5e14b573a34470",
                 "shasum": ""
             },
             "require": {
@@ -898,7 +898,7 @@
                 }
             ],
             "description": "WordPress must-use plugin for Stack",
-            "time": "2019-09-03T12:27:27+00:00"
+            "time": "2019-09-04T10:38:55+00:00"
         },
         {
             "name": "psr/cache",
