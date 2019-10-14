@@ -835,16 +835,16 @@
         },
         {
             "name": "presslabs/stack-mu-plugin",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/presslabs/stack-mu-plugin.git",
-                "reference": "b28790c75e6f507c037f8c3a6c5e14b573a34470"
+                "reference": "73717b59b6fbd8baf725d344eeb8b06e25b2493d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/b28790c75e6f507c037f8c3a6c5e14b573a34470",
-                "reference": "b28790c75e6f507c037f8c3a6c5e14b573a34470",
+                "url": "https://api.github.com/repos/presslabs/stack-mu-plugin/zipball/73717b59b6fbd8baf725d344eeb8b06e25b2493d",
+                "reference": "73717b59b6fbd8baf725d344eeb8b06e25b2493d",
                 "shasum": ""
             },
             "require": {
@@ -898,7 +898,7 @@
                 }
             ],
             "description": "WordPress must-use plugin for Stack",
-            "time": "2019-09-04T10:38:55+00:00"
+            "time": "2019-10-14T10:12:34+00:00"
         },
         {
             "name": "psr/cache",
