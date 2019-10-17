@@ -40,7 +40,7 @@
     "roots/wordpress": "5.2.4",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "presslabs/stack-mu-plugin": "^0.1.6",
+    "presslabs/stack-mu-plugin": "^0.1.7",
     "wpackagist-plugin/server-ip-memory-usage": "^2.1",
     "wpackagist-plugin/debug-bar": "^1.0",
     "wpackagist-plugin/debug-bar-console": "^0.3.0",
