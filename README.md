@@ -22,7 +22,7 @@ sites using Bedrock. The `Dockerfile` is as simple as:
 
 ```Dockerfile
 FROM quay.io/presslabs/wordpress-runtime:bedrock-build as builder
-FROM quay.io/presslabs/wordpress:bedrock
+FROM quay.io/presslabs/wordpress-runtime:bedrock
 COPY --from=builder --chown=www-data:www-data /app /app
 ```
 
