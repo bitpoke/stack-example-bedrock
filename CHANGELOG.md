@@ -1,3 +1,46 @@
+### Head
+
+### 1.13.4: 2020-04-24
+
+* fix(mu-plugins): Bump bedrock-autoloader version ([#512](https://github.com/roots/bedrock/pull/512))
+* fix(mu-plugins): A more sane fix for #510 ([#512](https://github.com/roots/bedrock/pull/512))
+
+### 1.13.3: 2020-04-24
+
+* enhance(ci): Add CircleCI workflow for PHP 7.4 ([#510](https://github.com/roots/bedrock/pull/511))
+* fix(mu-plugins): Fix invalid array access notice on 7.4 ([#510](https://github.com/roots/bedrock/pull/510))
+* enhance(composer): Add `only` option to wpackagist.org repository ([#508](https://github.com/roots/bedrock/pull/508))
+
+### 1.13.2: 2020-04-01
+
+* chore(deps): Bump WordPress to 5.4 ([#502](https://github.com/roots/bedrock/pull/502))
+* chore(deps): Bump vlucas/phpdotenv ([#501](https://github.com/roots/bedrock/pull/502))
+* enhance(config): Add `WP_DEBUG_LOG` ([#499](https://github.com/roots/bedrock/pull/499))
+
+### 1.13.1: 2020-02-19
+
+* fix(env): Makes .env.example compatible with breaking changes from vlucas/phpdotenv 4.x ([#493](https://github.com/roots/bedrock/pull/493))
+
+### 1.13.0: 2020-02-17
+
+* Update to WordPress 5.3.2 ([#489](https://github.com/roots/bedrock/pull/489))
+* chore(deps): Bump vlucas/phpdotenv from 4.0.1 to 4.1.0 ([#487](https://github.com/roots/bedrock/pull/487))
+* chore(deps): Bump vlucas/phpdotenv from 3.6.0 to 4.0.1 ([#485](https://github.com/roots/bedrock/pull/485))
+* chore(deps): Bump composer/installers from 1.7.0 to 1.8.0 ([#492](https://github.com/roots/bedrock/pull/492))
+* chore(deps-dev): Bump squizlabs/php_codesniffer from 3.4.2 to 3.5.4 ([#490](https://github.com/roots/bedrock/pull/490))
+* Clean up docblocks & commenting ([#459](https://github.com/roots/bedrock/pull/459))
+
+### 1.12.8: 2019-09-05
+
+* Update to WordPress 5.2.3 ([#466](https://github.com/roots/bedrock/pull/466))
+* Remove `phpcs.xml` from `.gitattributes` ([#464](https://github.com/roots/bedrock/pull/464))
+* `ini_set()` fixes ([#463](https://github.com/roots/bedrock/pull/463))
+* Editorconfig updates ([#457](https://github.com/roots/bedrock/pull/457))
+* Bump `composer/installers` ([#462](https://github.com/roots/bedrock/pull/462))
+* Better default composer options ([#456](https://github.com/roots/bedrock/pull/456))
+* Ignore `.log` files ([#440](https://github.com/roots/bedrock/pull/440))
+* Change to CircleCI ([82945d8](https://github.com/roots/bedrock/commit/82945d803d10cb072b7e786e0a81094ccb2d067b), [#460](https://github.com/roots/bedrock/pull/460))
+
 ### 1.12.7: 2019-06-19
 
 * Update to WordPress 5.2.2 ([#444](https://github.com/roots/bedrock/pull/444))
