@@ -2,7 +2,7 @@ stack-example-bedrock
 ===
 
 Example project for running a [Bedrock](https://roots.io/bedrock/) based
-WordPress site on [Presslabs Stack](https://www.presslabs.com/stack).
+WordPress site on [Bitpoke Stack](https://www.bitpoke.io/stack).
 
 ## Quickstart
 
@@ -11,18 +11,18 @@ In order to create a similar project you need run the following commands.
 ```console
 $ composer create-project roots/bedrock my-site
 $ cd my-site
-$ composer require presslabs/stack-mu-plugin
+$ composer require bitpoke/stack-mu-plugin
 $ ln -sf mu-plugins/stack-mu-plugin/src/object-cache.php web/app/object-cache.php
 ```
 
 ## Building docker images
 
-Presslabs Stack provides a base image for building and developing WordPress
+Bitpoke Stack provides a base image for building and developing WordPress
 sites using Bedrock. The `Dockerfile` is as simple as:
 
 ```Dockerfile
-FROM quay.io/presslabs/wordpress-runtime:bedrock-build as builder
-FROM quay.io/presslabs/wordpress-runtime:bedrock
+FROM docker.io/bitpoke/wordpress-runtime:bedrock-build as builder
+FROM docker.io/bitpoke/wordpress-runtime:bedrock
 COPY --from=builder --chown=www-data:www-data /app /app
 ```
 
@@ -62,4 +62,4 @@ $ docker-compose run wordpress composer require wpackagist-plugin/debug-bar
 If you are using docker compose, remember that the image built from the above
 `Dockerfile` already includes nginx and it's accessible on port 8080. For
 customizing the environment also check
-[https://github.com/presslabs/stack-runtimes/blob/master/php/README.md](https://github.com/presslabs/stack-runtimes/blob/master/php/README.md).
+[https://github.com/bitpoke/stack-runtimes/blob/master/php/README.md](https://github.com/bitpoke/stack-runtimes/blob/master/php/README.md).
