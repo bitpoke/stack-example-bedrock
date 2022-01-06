@@ -36,10 +36,10 @@
     "vlucas/phpdotenv": "^4.1.8",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "~5.7.1",
+    "roots/wordpress": "~5.8.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "presslabs/stack-mu-plugin": "^0.5.3",
+    "bitpoke/stack-mu-plugin": "^0.6.0",
     "johnbillion/query-monitor": "^3.6"
   },
   "require-dev": {
@@ -48,7 +48,11 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

@@ -5,7 +5,7 @@ services:
      depends_on:
        - db
        - memcached
-     image: quay.io/presslabs/wordpress-runtime:bedrock
+     image: docker.io/bitpoke/wordpress-runtime:bedrock
      volumes:
        - ./:/app
      ports:
