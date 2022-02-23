@@ -36,10 +36,10 @@
     "vlucas/phpdotenv": "^4.1.8",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "~5.8.3",
+    "roots/wordpress": "^5.9",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "bitpoke/stack-mu-plugin": "^0.6.0",
+    "bitpoke/stack-mu-plugin": "^0.7.0",
     "johnbillion/query-monitor": "^3.6"
   },
   "require-dev": {
