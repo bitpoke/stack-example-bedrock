@@ -1,3 +1,94 @@
+### 1.20.2: 2022-08-31
+* Bump roots/wordpress from 6.0.1 to 6.0.2 ([#648](https://github.com/roots/bedrock/pull/648))
+* Bump composer/installers from 2.1.1 to 2.2.0 ([#646](https://github.com/roots/bedrock/pull/646))
+
+### 1.20.1: 2022-07-19
+* Bump roots/wordpress from 6.0.0 to 6.0.1 ([#644](https://github.com/roots/bedrock/pull/644))
+* doc: instructions for installing "source" packages ([#641](https://github.com/roots/bedrock/pull/641))
+* Bump squizlabs/php_codesniffer from 3.6.2 to 3.7.1 ([#643](https://github.com/roots/bedrock/pull/643))
+* Bump composer/installers from 2.1.0 to 2.1.1 ([#635](https://github.com/roots/bedrock/pull/635))
+
+### 1.20.0: 2022-05-24
+* Update to WordPress 6.0, add Twenty Twenty-Two theme as dependency ([#639](https://github.com/roots/bedrock/pull/639))
+
+### 1.19.3: 2022-04-06
+* Bump roots/wordpress to 5.9.3 ([#633](https://github.com/roots/bedrock/pull/633))
+* Bump composer/installers from 2.0.1 to 2.1.0 ([#632](https://github.com/roots/bedrock/pull/632))
+
+### 1.19.2: 2022-03-11
+* Bump roots/wordpress to 5.9.2 ([#631](https://github.com/roots/bedrock/pull/631))
+
+### 1.19.1: 2022-02-23
+* Bump roots/wordpress to 5.9.1 ([#626](https://github.com/roots/bedrock/pull/630))
+
+### 1.19.0: 2022-01-25
+* Bump roots/wordpress to 5.9 ([#626](https://github.com/roots/bedrock/pull/626))
+* Bump squizlabs/php_codesniffer from 3.6.1 to 3.6.2 ([#623](https://github.com/roots/bedrock/pull/623))
+* Bump vlucas/phpdotenv from 5.3.1 to 5.4.1 ([#622](https://github.com/roots/bedrock/pull/622))
+* Bump composer/installers from 1.12.0 to 2.0.1 ([#621](https://github.com/roots/bedrock/pull/621))
+
+### 1.18.1: 2022-01-07
+* Bump roots/wordpress from 5.8.2 to 5.8.3 ([#625](https://github.com/roots/bedrock/pull/625))
+* chore(deps): allow required composer plugins ([#624](https://github.com/roots/bedrock/pull/624))
+
+### 1.18.0: 2021-12-06
+* Bump requirements to PHP 7.4 ([#619](https://github.com/roots/bedrock/pull/619))
+
+### 1.17.1: 2021-11-16
+* Bump roots/wordpress from 5.8.1 to 5.8.2 ([#615](https://github.com/roots/bedrock/pull/615))
+
+### 1.17.0: 2021-11-03
+* Bump roots/wp-password-bcrypt from 1.0.0 to 1.1.0 ([#613](https://github.com/roots/bedrock/pull/613))
+* CI: Check Composer lock file is up to date ([#612](https://github.com/roots/bedrock/pull/612))
+* Update composer.lock file ([#611](https://github.com/roots/bedrock/pull/611))
+
+### 1.16.2: 2021-10-21
+* Update `roave/security-advisories` default branch ([#609](https://github.com/roots/bedrock/pull/609))
+* Bump composer/installers from 1.11.0 to 1.12.0 ([#606](https://github.com/roots/bedrock/pull/606))
+* Bump roots/wordpress from 5.8 to 5.8.1 ([#605](https://github.com/roots/bedrock/pull/605))
+
+### 1.16.1: 2021-07-30
+* Check if `.env.local` exists before loading it ([#603](https://github.com/roots/bedrock/pull/603))
+
+### 1.16.0: 2021-07-22 
+* Bump roots/wordpress from 5.7.2 to 5.8 ([#600](https://github.com/roots/bedrock/pull/600))
+* Default to `WP_DEBUG_LOG=true` in development ([#505](https://github.com/roots/bedrock/pull/505))
+* Support `.env.local` config override ([#594](https://github.com/roots/bedrock/pull/594))
+* Use Bedrock disallow indexing package ([#521](https://github.com/roots/bedrock/pull/521))
+
+### 1.15.4: 2021-05-19
+* Bump roots/wordpress from 5.7 to 5.7.2 ([#593](https://github.com/roots/bedrock/pull/593))
+* Bump composer/installers from 1.10.0 to 1.11.0 ([#592](https://github.com/roots/bedrock/pull/592))
+* chore(deps-dev): Bump squizlabs/php_codesniffer from 3.5.8 to 3.6.0 ([#588](https://github.com/roots/bedrock/pull/588))
+
+### 1.15.3: 2021-03-12
+* chore(deps): Bump roots/wordpress from 5.6.2 to 5.7 ([#578](https://github.com/roots/bedrock/pull/578))
+
+### 1.15.2: 2021-02-11
+
+* chore(deps): Bump roots/wordpress from 5.5.3 to 5.6.1 ([#573](https://github.com/roots/bedrock/pull/573))
+* chore(deps): Bump composer/installers from 1.9.0 to 1.10.0 ([#569](https://github.com/roots/bedrock/pull/569))
+* chore(deps): Bump vlucas/phpdotenv from 5.2.0 to 5.3.0 ([#570 ](https://github.com/roots/bedrock/pull/570))
+*  Add WP_POST_REVISIONS as an option ([#572](https://github.com/roots/bedrock/pull/572))
+
+### 1.15.1: 2020-12-08
+
+* chore(deps): Bump roots/wordpress from 5.5.3 to 5.6 ([#567](https://github.com/roots/bedrock/pull/567))
+
+### 1.15.0: 2020-12-04
+
+* chore(deps): Bump roots/bedrock-autoloader from 1.0.3 to 1.0.4 ([#564](https://github.com/roots/bedrock/pull/564))
+* Upgrade to vlucas/phpdotenv:5.2 ([#563](https://github.com/roots/bedrock/pull/563))
+* chore(deps-dev): Bump squizlabs/php_codesniffer from 3.5.6 to 3.5.8 ([#550](https://github.com/roots/bedrock/pull/550))
+
+### 1.14.4: 2020-11-13
+
+* chore(deps): Bump roots/wordpress from 5.5.1 to 5.5.3 ([#556](https://github.com/roots/bedrock/pull/556))
+
+### 1.14.3: 2020-10-28
+
+* Bump `roots/wordpress-core-installer` for Composer 2 compatibility([#552](https://github.com/roots/bedrock/pull/552))
+
 ### 1.14.2: 2020-09-04
 
 * chore(deps): Bump roots/wordpress from 5.5 to 5.5.1 ([#545](https://github.com/roots/bedrock/pull/545))
